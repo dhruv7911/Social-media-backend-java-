@@ -1,0 +1,10 @@
+<web-app>
+  <servlet>
+    <servlet-name>Signup</servlet-name>
+    <servlet-class>com.example.social_media.controller.Signup</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Signup</servlet-name>
+    <url-pattern>/signup</url-pattern>
+  </servlet-mapping>
+</web-app>
